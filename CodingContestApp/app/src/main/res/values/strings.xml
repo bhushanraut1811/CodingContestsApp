@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Coding Contest</string>
+    <string name="action_share">Share</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_contests_home">ContestsHomeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_bookmark">Bookmark</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="action_platform">platforms</string>
+    <string name="action_rate">Rate us</string>
+    <string name="action_about_app">About app</string>
+    <string name="platforms">Coding Platforms</string>
+    <string name="new_rate_dialog_title">Rate Me!</string>
+    <string name="new_rate_dialog_never">Never</string>
+    <string name="new_rate_dialog_later">Later</string>
+    <string name="new_rate_dialog_ok">Rate</string>
+    <string name="report_bug">If you find any bug kindly report here So that we can improve your experience</string>
+    <string name="network_connection">Check Network Connection</string>
+    <string name="loading">Loading…</string>
+    <string name="save_bookmark">Saved to bookmarks</string>
+    <string name="already_saved_bookmark">Already saved to bookmarks</string>
+    <string name="reload">Reload</string>
+    <string name="no_bookmarks">No Bookmarks added</string>
+
+</resources>

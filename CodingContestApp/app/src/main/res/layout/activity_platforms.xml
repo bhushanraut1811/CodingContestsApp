@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_platforms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/dp8"
+    android:paddingLeft="@dimen/dp8"
+    android:paddingRight="@dimen/dp8"
+    android:paddingTop="@dimen/dp8"
+    tools:context="apps.techmines.codingcontestapp.ui.component.view.PlatformsActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_platform_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/iv_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_cloud_off_black_24dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_below="@id/iv_reload"
+        android:layout_centerInParent="true"
+        android:background="@drawable/reload_selector"
+        android:shadowColor="#A8A1A2"
+        android:shadowRadius="5"
+        android:text="@string/reload"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+</RelativeLayout>
